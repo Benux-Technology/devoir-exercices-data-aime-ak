@@ -15,3 +15,37 @@ Comment vérifier le type de chaque variable ?
 Que se passe-t-il si vous divisez par zéro ?
 
 Etudiant: Huguens AIME
+
+Exercice 2 : Analyse de Températures
+Objectif
+Créer et manipuler des vecteurs, effectuer des calculs statistiques
+Énoncé :
+Vous avez relevé les températures (en °C) pendant une semaine : 22, 24, 19, 25, 23,
+26, 21
+1 Créez un vecteur temperatures avec ces valeurs
+2 Calculez la température moyenne
+3 Trouvez la température minimale et maximale
+4 Créez un nouveau vecteur avec uniquement les températures > 23°C
+5 Convertissez toutes les températures en Fahrenheit
+Formule : F = C × 9/5 + 32
+6 Nommez les éléments du vecteur (Lundi, Mardi, etc.)
+
+Exercice 3 : Base de Données Étudiants
+Objectif
+Créer et manipuler un data frame, effectuer des analyses
+Énoncé :
+Créez un data frame etudiants avec les informations suivantes :
+Nom Note Maths Note Info Présent
+Alice 85 88 TRUE
+Bob 90 85 TRUE
+Charlie 78 92 FALSE
+Diana 95 90 TRUE
+
+Tâches :
+1 Créez le data frame
+2 Ajoutez une colonne moyenne (moyenne des deux notes)
+3 Trouvez l’étudiant avec la meilleure moyenne
+4 Filtrez uniquement les étudiants présents
+5 Calculez la moyenne de classe en maths
+6 Ajoutez une colonne mention (>= 90: "Excellent", >= 80: "Bien", sinon:
+"Passable")
